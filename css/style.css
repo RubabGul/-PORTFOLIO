@@ -229,47 +229,51 @@ padding:.5%;
       object-fit: cover;
    
 }
-.card-deck{
+/* .card-deck{
   margin-bottom: 4rem;
   color: white;
   /* height: 65vh; */
-}
+
 .card{
   border: 4px solid black;
   border-radius: 10px;
 }
 
 /* card -of work section*/
-.container {
+/* .container {
   height: 350px;
   width: 600px;
   transform: translateX(10rem);
   display: flex;
-}
+} */
 .card-work {
-  display: flex;
-  height: 410px;
+  /* display: flex; */
+  height: 100%;
+  color: #fff;
+
+  /* width: ; */
   background-color: #17141d;
   box-shadow: -1rem 0 3rem #000;
   transition: 0.4s ease-out;
-  position: relative;
-  left: 0px;
+  /* position: relative;
+  left: 0px; */
 }
-.card:not(:first-child) {
-    margin-left: -50px;
+.card-work:not(:first-child) {
+    margin-left: 10%;
+    margin-bottom: 5%;
 }
 
-.card:hover {
+.card-work:hover {
   transform: translateY(-10px);
   transition: 0.4s ease-out;
 }
-.card:hover ~ .card {
+.card-work:hover ~ .card-w {
   position: relative;
   left: 50px;
   transition: 0.4s ease-out;
 }
 .card-img-top{
-  height: 30vh;
+  height: 20vh;
   width: 10vw;
   clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
   position: relative;
